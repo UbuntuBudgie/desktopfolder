@@ -1,0 +1,10 @@
+Official announcement can be found here:
+https://github.com/spheras/desktopfolder/releases/tag/v1.0.10
+
+Text of the announcement reproduced below: 
+
+    Change Icon for Files, and SVG selections
+    Auto alignment for initial files
+    Budgie-desktop compatible
+    Fully update to Gtk+3.22
+    Minor bugfixes and stabilization

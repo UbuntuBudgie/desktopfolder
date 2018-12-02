@@ -1,0 +1,12 @@
+#!/usr/bin/make -f
+export DH_VERBOSE=1
+export DEB_BUILD_MAINT_OPTIONS = hardening=+all
+
+%:
+	dh $@
+
+override_dh_auto_configure:
+	dh_auto_configure -- -Dexename=desktopfolder
+
+override_dh_installchangelogs:
+	dh_installchangelogs debian/changelog-announcement.txt

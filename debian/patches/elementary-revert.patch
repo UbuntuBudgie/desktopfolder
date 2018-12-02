@@ -1,0 +1,46 @@
+Description: Revert ElementaryOS specifics
+ ElementaryOS has a couple of specific conventions
+ that is not required for the Debian package:
+ 1. The name of the executable that would be built through
+ the upstream source is in the format enforced by
+ Elementary for its AppCenter.  This patch changes
+ the executable name to a regular recognisable name.
+ 2. ElementaryOS requires applications distributed through
+ its AppCenter to have a application desktop entry.
+ For DesktopFolder it is unnecessary since there is no graphical
+ means to stop or start / user interact with the application i.e. it
+ runs unattended via an autostart file.  This patch removes
+ the application desktop file installation.
+Author: David Mohammed <fossfreedom@ubuntu.com>
+Origin: other
+Forwarded: not-needed
+Last-Update: 2018-11-06
+
+Index: desktopfolder-1.0.10/data/com.github.spheras.desktopfolder.desktop
+===================================================================
+--- desktopfolder-1.0.10.orig/data/com.github.spheras.desktopfolder.desktop
++++ desktopfolder-1.0.10/data/com.github.spheras.desktopfolder.desktop
+@@ -5,7 +5,7 @@ Comment=Organize your desktop with panel
+ Comment[lt]=Tvarkyti savo darbalaukį aplanko polangių pagalba
+ Comment[es]=Administra tu escritorio con paneles
+ Comment[fr]=Gérez votre Desktop avec des Panneaux
+-Exec=com.github.spheras.desktopfolder
++Exec=desktopfolder
+ Icon=com.github.spheras.desktopfolder
+ Keywords=desktop;folder;file;organize;
+ Terminal=false
+Index: desktopfolder-1.0.10/data/meson.build
+===================================================================
+--- desktopfolder-1.0.10.orig/data/meson.build
++++ desktopfolder-1.0.10/data/meson.build
+@@ -17,10 +17,6 @@ install_data(
+     install_dir: '/etc/xdg/autostart'
+ )
+
+-install_data(
+-    meson.project_name() + '.desktop',
+-    install_dir: join_paths(get_option('datadir'), 'applications')
+-)
+
+ install_data(
+     meson.project_name() + '.appdata.xml',

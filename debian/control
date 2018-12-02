@@ -1,0 +1,32 @@
+Source: desktopfolder
+Section: x11
+Priority: optional
+Maintainer: David Mohammed <fossfreedom@ubuntu.com>
+Build-Depends: debhelper (>= 11),
+               meson (>= 0.40.1),
+               valac (>= 0.40),
+               libgtk-3-dev (>= 3.22),
+               libgee-0.8-dev,
+               libcairo2-dev,
+               libjson-glib-dev,
+               libgdk-pixbuf2.0-dev,
+               libwnck-3-dev,
+               libglib2.0-dev,
+               libgtksourceview-3.0-dev
+Standards-Version: 4.2.1
+Vcs-Browser: https://github.com/UbuntuBudgie/desktopfolder/tree/debian
+Vcs-Git: https://github.com/UbuntuBudgie/desktopfolder -b debian
+Homepage: https://github.com/spheras/desktopfolder
+
+Package: desktopfolder
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Organize your desktop with panels, notes and photos
+ Bring your desktop back to life
+ Organize your desktop with panels that hold your things.
+ .
+ DesktopFolder overlays a hidden desktop overlay allowing
+ desktop icons, file shortcuts, folders, photographs, notes
+ and panels to be arranged in a freeform or grid format.
+ Each desktop component has a number of attributes that
+ can be customized - colors and size
