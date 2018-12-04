@@ -14,33 +14,33 @@ Description: Revert ElementaryOS specifics
 Author: David Mohammed <fossfreedom@ubuntu.com>
 Origin: other
 Forwarded: not-needed
-Last-Update: 2018-11-06
+Last-Update: 2018-12-04
 
-Index: desktopfolder-1.0.10/data/com.github.spheras.desktopfolder.desktop
+Index: desktopfolder-1.0.11/data/meson.build
 ===================================================================
---- desktopfolder-1.0.10.orig/data/com.github.spheras.desktopfolder.desktop
-+++ desktopfolder-1.0.10/data/com.github.spheras.desktopfolder.desktop
-@@ -5,7 +5,7 @@ Comment=Organize your desktop with panel
+--- desktopfolder-1.0.11.orig/data/meson.build	2018-12-04 10:59:23.516533001 +0000
++++ desktopfolder-1.0.11/data/meson.build	2018-12-04 10:59:23.504533001 +0000
+@@ -17,10 +17,6 @@
+     install_dir: '/etc/xdg/autostart'
+ )
+ 
+-install_data(
+-    meson.project_name() + '.desktop',
+-    install_dir: join_paths(get_option('datadir'), 'applications')
+-)
+ 
+ install_data(
+     meson.project_name() + '.appdata.xml',
+Index: desktopfolder-1.0.11/data/com.github.spheras.desktopfolder.desktop
+===================================================================
+--- desktopfolder-1.0.11.orig/data/com.github.spheras.desktopfolder.desktop	2018-12-04 10:59:11.188533001 +0000
++++ desktopfolder-1.0.11/data/com.github.spheras.desktopfolder.desktop	2018-12-04 10:59:57.780533001 +0000
+@@ -20,7 +20,7 @@
  Comment[lt]=Tvarkyti savo darbalaukį aplanko polangių pagalba
- Comment[es]=Administra tu escritorio con paneles
- Comment[fr]=Gérez votre Desktop avec des Panneaux
+ Comment[pl]=Zarządzaj pulpitem za pomocą paneli, notatek i obrazów
+ Comment[pt_BR]=Organize sua área de trabalho com painéis, notas e fotos
 -Exec=com.github.spheras.desktopfolder
 +Exec=desktopfolder
  Icon=com.github.spheras.desktopfolder
  Keywords=desktop;folder;file;organize;
  Terminal=false
-Index: desktopfolder-1.0.10/data/meson.build
-===================================================================
---- desktopfolder-1.0.10.orig/data/meson.build
-+++ desktopfolder-1.0.10/data/meson.build
-@@ -17,10 +17,6 @@ install_data(
-     install_dir: '/etc/xdg/autostart'
- )
-
--install_data(
--    meson.project_name() + '.desktop',
--    install_dir: join_paths(get_option('datadir'), 'applications')
--)
-
- install_data(
-     meson.project_name() + '.appdata.xml',
