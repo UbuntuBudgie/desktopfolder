@@ -18,8 +18,8 @@ Last-Update: 2018-12-04
 
 Index: desktopfolder-1.0.11/data/meson.build
 ===================================================================
---- desktopfolder-1.0.11.orig/data/meson.build	2018-12-04 10:59:23.516533001 +0000
-+++ desktopfolder-1.0.11/data/meson.build	2018-12-04 10:59:23.504533001 +0000
+--- desktopfolder-1.0.11.orig/data/meson.build	2018-12-06 10:39:51.365883744 +0000
++++ desktopfolder-1.0.11/data/meson.build	2018-12-06 10:39:51.333883744 +0000
 @@ -17,10 +17,6 @@
      install_dir: '/etc/xdg/autostart'
  )
@@ -33,12 +33,12 @@ Index: desktopfolder-1.0.11/data/meson.build
      meson.project_name() + '.appdata.xml',
 Index: desktopfolder-1.0.11/data/com.github.spheras.desktopfolder.desktop
 ===================================================================
---- desktopfolder-1.0.11.orig/data/com.github.spheras.desktopfolder.desktop	2018-12-04 10:59:11.188533001 +0000
-+++ desktopfolder-1.0.11/data/com.github.spheras.desktopfolder.desktop	2018-12-04 10:59:57.780533001 +0000
-@@ -20,7 +20,7 @@
- Comment[lt]=Tvarkyti savo darbalaukį aplanko polangių pagalba
+--- desktopfolder-1.0.11.orig/data/com.github.spheras.desktopfolder.desktop	2018-12-06 10:39:51.365883744 +0000
++++ desktopfolder-1.0.11/data/com.github.spheras.desktopfolder.desktop	2018-12-06 10:41:00.633883744 +0000
+@@ -26,7 +26,7 @@
  Comment[pl]=Zarządzaj pulpitem za pomocą paneli, notatek i obrazów
  Comment[pt_BR]=Organize sua área de trabalho com painéis, notas e fotos
+ Comment[tr]=Masaüstünüzü panel, not ve fotoğraflarla düzenleyin
 -Exec=com.github.spheras.desktopfolder
 +Exec=desktopfolder
  Icon=com.github.spheras.desktopfolder
