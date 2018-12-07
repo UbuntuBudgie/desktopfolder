@@ -1,12 +1,3 @@
-desktopfolder (1.0.11-1) UNRELEASED; urgency=medium
-
-  * New upstream release
-  * Packaging Changes
-    - Control: remove libgranite from build-dependencies since
-      it is not required to build with.
-
- -- David Mohammed <fossfreedom@ubuntu.com>  Mon, 26 Nov 2018 23:37:30 +0000
-
 desktopfolder (1.0.10-1) unstable; urgency=medium
 
   * Initial Release (Closes: #913356)
