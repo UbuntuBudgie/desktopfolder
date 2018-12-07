@@ -29,4 +29,7 @@ Description: Organize your desktop with panels, notes and photos
  desktop icons, file shortcuts, folders, photographs, notes
  and panels to be arranged in a freeform or grid format.
  Each desktop component has a number of attributes that
- can be customized - colors and size
+ can be customized - colors and size.
+ .
+ DesktopFolder has been developed for GNOME based desktops such as
+ GNOME-Shell and Budgie Desktop.
