@@ -1,5 +1,5 @@
-desktopfolder (1.0.10-1) unstable; urgency=medium
+desktopfolder (1.0.10-0ubuntu1) disco; urgency=medium
 
-  * Initial Release (Closes: #913356)
+  * Initial Release (LP: #1809120)
 
- -- David Mohammed <fossfreedom@ubuntu.com>  Fri, 9 Nov 2018 19:03:10 +0000
+ -- David Mohammed <fossfreedom@ubuntu.com> Wed, 19 Dec 2018 19:03:10 +0000
