@@ -1,4 +1,22 @@
 Official announcement can be found here:
+https://github.com/spheras/desktopfolder/releases/tag/v1.1.0
+
+Text of the announcement reproduced below: 
+
+    Free, Grid and Automatic arrangements
+    Drag & Drop without Ctrl Key and autodetection
+    Transifex translations integration, new translations added
+    File Synchronization Threads
+    Animations Fx
+    Hide/Show Desktop Panel and Icons
+    Vertical/Horizontal Icons Arrangement
+    Folder Panels with Scrollbars
+    Folder/File Info Dialog
+    Other minor functionality added
+    Minor bugfixing
+
+
+Official announcement can be found here:
 https://github.com/spheras/desktopfolder/releases/tag/v1.0.10
 
 Text of the announcement reproduced below: 

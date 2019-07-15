@@ -1,3 +1,16 @@
+desktopfolder (1.1.0-1) unstable; urgency=medium
+
+  * New upstream release
+    - See ChangeLog
+  * Packaging Changes
+    - Control: Bump StandardsVersion: no changes required
+    - Control: Bump debhelper/compat to 12
+    - Control: Add intltool to build-depends
+    - Drop existing patch since this area has been superseded in this
+      release
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sat, 13 Jul 2019 11:51:28 +0100
+
 desktopfolder (1.0.10-1) unstable; urgency=medium
 
   * Initial Release (Closes: #913356)
