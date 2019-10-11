@@ -1,3 +1,19 @@
+desktopfolder (1.1.0-3) unstable; urgency=medium
+
+  * Bugfix release
+    - fix FTBFS due to vala 0.46
+      0001-Fix-compilation-against-Vala-0.46.patch
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Fri, 11 Oct 2019 16:51:48 +0100
+
+desktopfolder (1.1.0-2) unstable; urgency=medium
+
+  * Bugfix release (Closes: #932547)
+    - resolve FTBFS with vala 0.44
+      0001-Fix-compilation-issues-with-vala-0.44.patch
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sat, 20 Jul 2019 11:15:01 +0100
+
 desktopfolder (1.1.0-1) unstable; urgency=medium
 
   * New upstream release
