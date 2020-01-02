@@ -3,6 +3,7 @@ Section: x11
 Priority: optional
 Maintainer: David Mohammed <fossfreedom@ubuntu.com>
 Build-Depends: debhelper (>= 12),
+               debhelper-compat (= 12),
                meson (>= 0.40.1),
                valac (>= 0.40),
                libgtk-3-dev (>= 3.22),
@@ -14,7 +15,7 @@ Build-Depends: debhelper (>= 12),
                libglib2.0-dev,
                libgtksourceview-3.0-dev,
                intltool
-Standards-Version: 4.4.0
+Standards-Version: 4.4.1
 Vcs-Browser: https://github.com/UbuntuBudgie/desktopfolder/tree/debian
 Vcs-Git: https://github.com/UbuntuBudgie/desktopfolder -b debian
 Homepage: https://github.com/spheras/desktopfolder

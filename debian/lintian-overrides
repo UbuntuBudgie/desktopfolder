@@ -1,0 +1,2 @@
+# AutostartCondition is a valid key for GNOME based desktops
+desktopfolder: desktop-entry-contains-unknown-key usr/share/applications/com.github.spheras.desktopfolder.desktop:52 AutostartCondition

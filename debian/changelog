@@ -1,3 +1,19 @@
+desktopfolder (1.1.2-1) unstable; urgency=medium
+
+  * New upstream release
+    - Reorganised Menu
+    - Double click on photos to open
+    - Translations Added and Updated
+    - Minor bugfixing
+  * Packaging Changes
+    - control: bump Standards-Version (no changes required)
+    - control/compat - debhelper 12 and removed compat
+    - drop all patches since incorporated in the new release
+    - copyright: bump copyright year for year change
+    - watch: upstream now released gz not xz tarballs
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Thu, 02 Jan 2020 12:50:39 +0000
+
 desktopfolder (1.1.0-3) unstable; urgency=medium
 
   * Bugfix release
