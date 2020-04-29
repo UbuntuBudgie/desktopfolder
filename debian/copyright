@@ -1,4 +1,6 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: desktopfolder
+Upstream-Contact: José Amuedo <joseamuedo@gmail.com>
 
 Files: *
 Copyright: 2017-2019, José Amuedo (https:github.com/spheras)
