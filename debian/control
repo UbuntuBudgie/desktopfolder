@@ -15,9 +15,9 @@ Build-Depends: debhelper (>= 12),
                libglib2.0-dev,
                libgtksourceview-3.0-dev,
                intltool
-Standards-Version: 4.4.1
+Standards-Version: 4.5.0
 Vcs-Browser: https://github.com/UbuntuBudgie/desktopfolder/tree/debian
-Vcs-Git: https://github.com/UbuntuBudgie/desktopfolder -b debian
+Vcs-Git: https://github.com/UbuntuBudgie/desktopfolder.git -b debian
 Homepage: https://github.com/spheras/desktopfolder
 
 Package: desktopfolder
