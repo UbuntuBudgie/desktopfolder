@@ -2,6 +2,8 @@ desktopfolder (1.1.2-2) UNRELEASED; urgency=medium
 
   * Set fields Upstream-Name, Upstream-Contact in debian/copyright.
   * Use canonical URL in Vcs-Git.
+  * Remove obsolete fields Contact, Name from debian/upstream/metadata
+    (already present in machine-readable debian/copyright).
 
  -- Debian Janitor <janitor@jelmer.uk>  Wed, 29 Apr 2020 02:06:54 +0000
 
