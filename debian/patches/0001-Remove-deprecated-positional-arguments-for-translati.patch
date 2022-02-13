@@ -1,0 +1,42 @@
+From a340264fce3d0a0576db559e159415c4713de753 Mon Sep 17 00:00:00 2001
+From: David Mohammed <fossfreedom@ubuntu.com>
+Date: Sun, 13 Feb 2022 11:35:41 +0000
+Subject: [PATCH] Remove deprecated positional arguments for translation merges
+ Meson has now removed the positional arguments for the translation merges. 
+ This causes a FTBFS scenario.
+
+---
+ data/meson.build | 3 ---
+ 1 file changed, 3 deletions(-)
+
+diff --git a/data/meson.build b/data/meson.build
+index 8b6398f..bfa0b24 100644
+--- a/data/meson.build
++++ b/data/meson.build
+@@ -25,7 +25,6 @@ desktop_exe = configure_file(   input : meson.project_name() + '.desktop.in',
+                                 configuration : desktop_conf)
+ 
+ i18n.merge_file (
+-    'appdata',
+     input: meson.project_name() + '.appdata.xml.in',
+     output: meson.project_name() + '.appdata.xml',
+     install: true,
+@@ -34,7 +33,6 @@ i18n.merge_file (
+ )
+ 
+ i18n.merge_file (
+-    'desktop',
+     input: desktop_exe,
+     output: meson.project_name() + '.desktop',
+     install: true,
+@@ -44,7 +42,6 @@ i18n.merge_file (
+ )
+ 
+ i18n.merge_file (
+-    'desktop',
+     input: desktop_exe,
+     output: meson.project_name() + '-autostart.desktop',
+     install: true,
+-- 
+2.34.1
+
