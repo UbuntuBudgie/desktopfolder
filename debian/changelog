@@ -1,12 +1,13 @@
-desktopfolder (1.1.3-3) UNRELEASED; urgency=medium
+desktopfolder (1.1.3-3) unstable; urgency=medium
 
   * Packaging Changes
     - control: Update StandardsVersion - no changes required
     - copyright: Update debian copyright year
     - B/D libgdk-pixbuf-2.0-dev instead of transition package
-      libgdk-pixbuf2.0-dev (Closes: #1037367)  TO BE DONE IN CONTROL FILE
+      libgdk-pixbuf2.0-dev (Closes: #1037367)
+    - lintian-overrides - update for new format
 
- -- David Mohammed <fossfreedom@ubuntu.com>  Sun, 13 Feb 2022 11:44:13 +0000
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sun, 10 Sep 2023 17:26:33 +0100
 
 desktopfolder (1.1.3-2) unstable; urgency=medium
 
