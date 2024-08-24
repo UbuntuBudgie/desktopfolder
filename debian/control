@@ -13,7 +13,7 @@ Build-Depends: debhelper (>= 13),
                libgdk-pixbuf-2.0-dev,
                libwnck-3-dev,
                libglib2.0-dev,
-               libgtksourceview-3.0-dev,
+               libgtksourceview-4-dev,
                intltool
 Standards-Version: 4.6.2
 Vcs-Browser: https://github.com/UbuntuBudgie/desktopfolder/tree/debian
